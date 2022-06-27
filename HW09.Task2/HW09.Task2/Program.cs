@@ -49,7 +49,7 @@ namespace HW09.Task2
                 case 1:
                     Console.WriteLine("Введено значение 1, значит");
                     Console.WriteLine("фамилии в алфавитном порядке :");
-                    foreach (string i in SurName)
+                    foreach (string i in SurName.OrderBy(v => v))
                     Console.WriteLine(i);
                     break;
                 case 2:
